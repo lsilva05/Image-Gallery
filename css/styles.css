@@ -1,1 +1,18 @@
 /* Stylesheet */
+
+.home {	
+	background: grey;
+}
+
+.gallery {
+	background: orange;	
+}
+
+/*nav*/
+
+.home nav li:nth-child(1) a,
+.gallery nav li:nth-child(2) a{
+	font-weight: bold;
+	text-shadow: 1px 2px white;	
+	font-size: 2em;
+}
